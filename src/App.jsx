@@ -20,11 +20,13 @@ function App() {
   };
   return (
     <>
-      <div className={styles.calculator}>
-        <Title />
-        <Display calVal={calVal} />
-        <ButtonsContainer onClickH={onButtonClick} />
-      </div>
+      <center>
+        <div className={styles.calculator}>
+          <Title />
+          <Display calVal={calVal} />
+          <ButtonsContainer onClickH={onButtonClick} />
+        </div>
+      </center>
     </>
   );
 }
